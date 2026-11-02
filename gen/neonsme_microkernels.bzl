@@ -27,6 +27,9 @@ PROD_NEONSME_MICROKERNEL_SRCS = [
 ]
 
 NON_PROD_NEONSME_MICROKERNEL_SRCS = [
+    "src/pf32-qc8w-gemm/pf32-qc8w-gemm-1x32-minmax-sme.c",
+    "src/pf32-qc8w-gemm/pf32-qc8w-gemm-32x32-minmax-sme.c",
+    "src/x32-pack-lh/x32-packlh-sme.c",
 ]
 
 ALL_NEONSME_MICROKERNEL_SRCS = PROD_NEONSME_MICROKERNEL_SRCS + NON_PROD_NEONSME_MICROKERNEL_SRCS
